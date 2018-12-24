@@ -1,4 +1,4 @@
-  <%= link_to "Edit Attraction", "/attractions/#{@attraction.id}/edit," method: :post %>
+
 
 
 
