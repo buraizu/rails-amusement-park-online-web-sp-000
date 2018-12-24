@@ -1,6 +1,4 @@
-<% if current_user.rides.present? %>
-<%= current_user.rides.last.take_ride %>
-<% end %>
+  <%= link_to "Edit Attraction", "/attractions/#{@attraction.id}/edit," method: :post %>
 
 
 
